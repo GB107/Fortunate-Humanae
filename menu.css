@@ -130,7 +130,7 @@ justify-content: center;
 margin-top: 20px;
 }
 body{
-    background-image: url(/bg7.gif);
+    background-image: url(./bg7.gif);
     background-size: 100vw;
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
