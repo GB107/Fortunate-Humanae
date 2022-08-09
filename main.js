@@ -106,12 +106,12 @@ function toss(){
     if (r == 0) {
         tossw.innerHTML = "Toss Won by Player 1";
         turn = "Player1";
-        setTimeout(ab,2000);
+        setTimeout(ab,950);
     }
     else {
         tossw.innerHTML = "Toss Won by Player 2";
         turn = "Player2";
-        setTimeout(ab,2000);
+        setTimeout(ab,950);
     }
  }
 
@@ -383,7 +383,11 @@ head.forEach(function (e){
     start.style.display='flex';
     a=0,b=0,c=0,f=0,g=0,h=0,i=0,j=0,k=0,l=0;
     btn1.style.display='none'
-    btn2.style.display='none' 
+    btn2.style.display='none'
+ generator.forEach(function (e){
+        e.style.display='none';
+    });
+    choose.style.display='none';
 }
 function autostart(){
     gameover.style.display='none'
