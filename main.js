@@ -84,7 +84,7 @@ const restart=document.getElementById('restart')
  const hd125=document.getElementById('25hd1');
  
 const gameover=document.getElementById('gameover')
- const gamebox=document.getElementById('gamebox')
+ 
 
  const choose=document.getElementById('choose')
 const tossw=document.getElementById('tossw')
